@@ -1,0 +1,8 @@
+{
+  "ABC123": {
+    "cliente": "Reginaldo",
+    "expira_em": "2026-12-31",
+    "status": "ativo",
+    "obs": "Licença de teste"
+  }
+}
