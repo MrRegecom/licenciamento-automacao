@@ -1,7 +1,3 @@
-import os
-st.write("Diretório atual:", os.getcwd())
-st.write("Arquivos:", os.listdir())
-
 import streamlit as st
 import json
 from datetime import datetime
