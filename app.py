@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from datetime import datetime
 
-ARQUIVO_LICENCAS = "licencas.json"
+ARQUIVO_LICENCAS = "data/licencas.json"
 
 
 def carregar_licencas():
