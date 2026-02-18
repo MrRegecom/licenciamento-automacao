@@ -6,6 +6,10 @@ from datetime import datetime
 import os
 ARQUIVO_LICENCAS = os.path.join(os.path.dirname(__file__), "data", "licencas.json")
 
+# força o Streamlit a carregar o JSON antes de tudo
+_ = carregar_licencas()
+
+
 
 def carregar_licencas():
     try:
