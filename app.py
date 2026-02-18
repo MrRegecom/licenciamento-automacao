@@ -2,7 +2,9 @@ import streamlit as st
 import json
 from datetime import datetime
 
-ARQUIVO_LICENCAS = "data/licencas.json"
+#ARQUIVO_LICENCAS = "data/licencas.json"
+import os
+ARQUIVO_LICENCAS = os.path.join(os.path.dirname(__file__), "data", "licencas.json")
 
 
 def carregar_licencas():
